@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp59", "ConsoleApp5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{6D21B476-2EC9-4D68-B9DE-A8B22A87F262}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{4A2850F9-8244-418B-9444-166B9AADB1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{4A2850F9-8244-418B-9444-166B9AADB1CF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB", "VB\VB.vbproj", "{BFEA5BD9-F95C-4DE2-86E8-011FE095F944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{DB3697AE-4250-461C-AD2A-87CB6084D34D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{4A2850F9-8244-418B-9444-166B9AADB1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A2850F9-8244-418B-9444-166B9AADB1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A2850F9-8244-418B-9444-166B9AADB1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEA5BD9-F95C-4DE2-86E8-011FE095F944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEA5BD9-F95C-4DE2-86E8-011FE095F944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEA5BD9-F95C-4DE2-86E8-011FE095F944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEA5BD9-F95C-4DE2-86E8-011FE095F944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3697AE-4250-461C-AD2A-87CB6084D34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3697AE-4250-461C-AD2A-87CB6084D34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3697AE-4250-461C-AD2A-87CB6084D34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3697AE-4250-461C-AD2A-87CB6084D34D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
