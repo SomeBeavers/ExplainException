@@ -1,10 +1,18 @@
 ﻿using Nuget;
 
-Console.WriteLine("Hello, World!");
-for (int i = 0; i < 3; i++)
+internal class Program
 {
-    if (i == 2)
+    public static void Main(string[] args)
     {
-        new Nuget.Nuget1().Test();
+        var first = int.Parse(args[0]) / int.Parse(args[1]);
+        
+        //Console.WriteLine("Hello, World!");
+        //for (int i = 0; i < 3; i++)
+        //{
+        //    if (i == 2)
+        //    {
+        //        new Nuget.Nuget1().Test();
+        //    }
+        //}
     }
 }
