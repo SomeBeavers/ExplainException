@@ -1,4 +1,5 @@
 ﻿using ConsoleApp59;
+using Lib_Framework;
 using Nuget;
 
 internal class Program
@@ -6,7 +7,9 @@ internal class Program
     public static void Main(string[] args)
     {
         //var first = int.Parse(args[0]) / int.Parse(args[1]);
-
+        var person = new Person();
+        person.InsertPerson(person);
+        
         var class1 = new Class1();
         class1.Test1(1);
 
