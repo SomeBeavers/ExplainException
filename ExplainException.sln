@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\Bl
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB", "VB\VB.vbproj", "{BFEA5BD9-F95C-4DE2-86E8-011FE095F944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{DB3697AE-4250-461C-AD2A-87CB6084D34D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{DB3697AE-4250-461C-AD2A-87CB6084D34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_Framework", "ConsoleApp_Framework\ConsoleApp_Framework.csproj", "{60AC7420-0297-4EB2-B944-567944999065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_Framework", "Lib_Framework\Lib_Framework.csproj", "{2B3A4346-F33F-4E84-AA4B-B8644DBABBB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{DB3697AE-4250-461C-AD2A-87CB6084D34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB3697AE-4250-461C-AD2A-87CB6084D34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB3697AE-4250-461C-AD2A-87CB6084D34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AC7420-0297-4EB2-B944-567944999065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AC7420-0297-4EB2-B944-567944999065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AC7420-0297-4EB2-B944-567944999065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AC7420-0297-4EB2-B944-567944999065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3A4346-F33F-4E84-AA4B-B8644DBABBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3A4346-F33F-4E84-AA4B-B8644DBABBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3A4346-F33F-4E84-AA4B-B8644DBABBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3A4346-F33F-4E84-AA4B-B8644DBABBB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
