@@ -8,7 +8,7 @@ internal class Program
         //var first = int.Parse(args[0]) / int.Parse(args[1]);
 
         var class1 = new Class1();
-        class1.Test1();
+        class1.Test1(1);
 
         //Console.WriteLine("Hello, World!");
         //for (int i = 0; i < 3; i++)

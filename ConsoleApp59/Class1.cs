@@ -1,17 +1,12 @@
 ﻿namespace ConsoleApp59;
 
-public class Class1
+public partial class Class1
 {
-    public void ThrowException()
-    {
-        throw new MyException("My custom exception");
-    }
-
-    public void Test1()
+    public void Test1(int t)
     {
         try
         {
-            ThrowException();
+            new Class1_2().ThrowException($"Test {t}");
         }
         catch (MyException e)
         {
