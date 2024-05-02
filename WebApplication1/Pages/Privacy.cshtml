@@ -1,0 +1,25 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<button onclick="getRectArea(a, 10)">Calculate Area</button>
+
+<div id="result"></div>
+
+
+@section Scripts
+{
+    <script type="text/javascript">
+        function getRectArea(width, height) {
+            if (isNaN(width) || isNaN(height)) {
+                throw new Error('Parameter is not a number!');
+            }
+            var result = width * height;
+            document.getElementById('result').innerText = 'The area is: ' + result;
+        }
+    </script>
+}
