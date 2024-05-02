@@ -9,7 +9,15 @@ internal class Program
         ////var first = int.Parse(args[0]) / int.Parse(args[1]);
         //var person = new Person();
         //person.InsertPerson(person);
-        
+
+        //for (int test = 0; test < 3; test++)
+        //{
+        //    if (test == 2)
+        //    {
+        //        throw new Exception($"This is an exception because {test} == 2");
+        //    }
+        //}
+
         var class1 = new Class1();
         class1.Test1(1);
 

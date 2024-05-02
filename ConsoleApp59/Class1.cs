@@ -16,6 +16,10 @@ public partial class Class1
     }
 }
 
+public class MainClass
+{
+}
+
 public class MyException : Exception
 {
     public MyException() : base("Custom exception message")
