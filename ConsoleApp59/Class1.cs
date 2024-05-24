@@ -7,6 +7,7 @@ public partial class Class1
         try
         {
             new Class1_2().ThrowException($"Test {t}");
+            //throw new MyException("AAAAA");
         }
         catch (MyException e)
         {
