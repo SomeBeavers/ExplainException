@@ -4,4 +4,12 @@ using CLRLib;
 
 Console.WriteLine("Hello, World!");
 var newClass1 = new Class1();
-newClass1.Test();
+try
+{
+    newClass1.Test(0);
+}
+catch (Exception e)
+{
+    Console.WriteLine(e);
+    throw;
+}
