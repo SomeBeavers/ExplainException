@@ -7,7 +7,12 @@ public class Class140
     {
         try
         {
-            new Class141().ThrowException(parameter);
+            var list = new List<string>() { "" };
+            var enumerable = list.Where(x => x.Length > 0);
+            enumerable.ToList().ForEach(x => Console.WriteLine(x));
+
+            throw new MyException($"My custom exception {parameter} thrown after aaaaaaaaa");
+
         }
         catch (Exception e)
         {
