@@ -1,12 +1,12 @@
 ﻿namespace ConsoleApp59;
 
-public class Class2
+public class Class3
 {
     public void ThrowException(string parameter)
     {
         try
         {
-            new Class3().ThrowException(parameter);
+            new Class4().ThrowException(parameter);
         }
         catch (Exception e)
         {
