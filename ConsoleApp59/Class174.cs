@@ -1,13 +1,13 @@
 
 namespace ConsoleApp59;
 
-public class Class100
+public class Class174
 {
     public void ThrowException(string parameter)
     {
         try
         {
-            new Class101().ThrowException(parameter);
+            new Class175().ThrowException(parameter);
         }
         catch (Exception e)
         {
